@@ -9,7 +9,7 @@
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
-  position: relative;
+  position: absolute;
 }
 .nav-bar{
   display: flex;
@@ -40,7 +40,7 @@
   content: '';
   width: 0;
   height: 2px;
-  background: yellow;
+  background: green;
   display: block;
   margin: auto;
   transition: .5s;
@@ -113,7 +113,7 @@
 }
 .notifications{
   display: flex;
-  width: 400px;
+  width: 420px;
   right: 0;
   bottom: 0;
   position: absolute;
